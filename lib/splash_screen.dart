@@ -10,7 +10,7 @@ class Splash extends StatelessWidget {
       body: Container(
         child: Text(
           'Splash Screen',
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
         ),
       ),
     );
