@@ -6,13 +6,13 @@ class Splash extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        child: Text(
-          'Splash Screen',
-          style: TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
-        ),
-      ),
+    return Material(
+      color: Colors.orangeAccent,
+      child: Center(
+          child: Text(
+        "Hello Flutter",
+        textDirection: TextDirection.ltr,
+      )),
     );
   }
 }
